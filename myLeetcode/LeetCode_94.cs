@@ -191,7 +191,7 @@
                     同时，当 T 为 True 时，表示 A 的两棵子树都遍历过了，要访问 A 了。并且在 A 访问完后，A 这棵子树都访问完成了。
                  */
                 IList<int> nlist2 = new List<int>();
-                static void function2(TreeNode root, ref IList<int> nlist2)
+                static void function2(TreeNode root, ref IList<int> nlist2) //顺序就是左右根
                 {
                     Dictionary<TreeNode,int?> dicts = new Dictionary<TreeNode,int?>();
                     Stack<TreeNode> st2 = new Stack<TreeNode>();
