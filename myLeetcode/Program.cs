@@ -7,7 +7,7 @@
 
         static void Main(string[] args)
         {
-            LeetCode_04.leetcode_04();
+            LeetCode_95.leetcode_95();
         }
     }
 }
